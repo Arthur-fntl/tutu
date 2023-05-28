@@ -19,7 +19,7 @@
 @keyframes entering{
   from {
     opacity: 0;
-  transform: translateY(-200px);
+  transform: translateY(-300px);
 }
 to {
   opacity: 1;
@@ -39,7 +39,7 @@ nav{
   padding: 64px;
   grid-area: timeline;
   overflow-y:scroll ;
-  animation: entering 4s ease-in-out;
+  animation: entering 5s ease-in-out;
 
 }
 .memory{
@@ -50,17 +50,18 @@ nav{
   margin-bottom: 64px;
 }
 .memory small{
-color: #bebebf;
+color: #fd003f;
 font-size: 0.75rem;
 }
 .memory h1 {
+  color:#ff034f;
   font-size: 2rem;
 }
 .memory img{
   width: 100%;
   height: 280px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 10px;
  transition:transform 4s ease-in-out;
   
 }
@@ -76,7 +77,7 @@ font-size: 0.75rem;
 }
 .memory p {
 font-size: 1.125rem;
-color: #bebebf;
+color: #ff034f;
 line-height: 28px;
 }
 aside{
